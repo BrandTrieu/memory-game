@@ -1,0 +1,38 @@
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "score message"
+        "highscore reset";
+    text-align: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.score-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: score;
+}
+
+.highscore-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: highscore;
+}
+
+.gamestate-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: message;
+}
+
+.reset-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: reset;
+    cursor: pointer;
+    margin: 0rem 3rem;
+    border-radius: 8px;
+}

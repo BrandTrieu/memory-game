@@ -1,0 +1,12 @@
+.img-card {
+    width: 120px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.pkmn-img {
+    width: 100%;
+    height: auto;
+}
+
